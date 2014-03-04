@@ -1,8 +1,8 @@
 {
   "name": "experiments",
   "version": "0.1.6",
-  "description": "This is an experiment.",
-  "main": "displayMetadata",
+  "description": "A simple RaveJS experiment.",
+  "main": "main",
   "ignore": [
     "node_modules",
     "bower_components"
@@ -18,6 +18,7 @@
     "url": "https://github.com/unscriptable/scratch"
   },
   "dependencies": {
+	"rave": "",
     "curl": "~0.8",
     "when": "~2"
   },

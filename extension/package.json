@@ -1,16 +1,16 @@
 {
   "name": "experiments",
   "version": "0.1.6",
-  "description": "An ES6 Module Loader pipeline toolkit and shim.",
+  "description": "A simple RaveJS experiment.",
   "keywords": [
-    "beck",
+    "rave",
     "commonjs",
     "modules",
     "amd",
     "module",
     "es6"
   ],
-  "main": "displayMetadata",
+  "main": "main",
   "licenses": [
     {
       "type": "MIT",
@@ -39,6 +39,6 @@
   ],
   "dependencies": {
     "rest": "~1.0",
-    "rave-text-byext": ""
+    "rave-text-byext": "~0.1.2"
   }
 }
