@@ -2,6 +2,9 @@ pre {
 	font-family: "Source Code Pro", "Courier", "Courier New", monospace;
 	border: 1px dotted brown;
 	background-color: #ede0c0;
+	background-image: url(./img/rave-guy.png);
+	background-position: top right;
+	background-repeat: no-repeat;
 }
 
 h1, h2 {
