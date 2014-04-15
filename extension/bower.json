@@ -23,6 +23,13 @@
     "curl": "~0.8",
     "when": "~2"
   },
+  "rave": {
+    "overrides": {
+      "curl": {
+        "location": "bower_components/curl/src/curl/"
+      }
+    }
+  },
   "maintainers": [
     {
       "name": "John Hann",
