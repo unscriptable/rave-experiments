@@ -1,0 +1,17 @@
+pre {
+	font-family: "Source Code Pro", "Courier", "Courier New", monospace;
+	border: 1px dotted brown;
+	background-color: #ede0c0;
+}
+
+h1, h2 {
+	font-family: "Helvetica", "Arial", "Helvetica Neue", sans-serif;
+}
+
+p.app-name {
+	color: #550000;
+}
+
+p.app-main {
+	color: #555500;
+}
