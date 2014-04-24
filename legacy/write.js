@@ -1,6 +1,6 @@
 module.exports = write;
 
-var domReady = require('curl/src/curl/domReady');
+var domReady = require('curl/domReady');
 var callbacks = require('when/callbacks');
 
 function write (msg, tagType) {
