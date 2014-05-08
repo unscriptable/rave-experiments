@@ -1,0 +1,29 @@
+{
+	"name": "angular-experiment",
+	"version": "0.0.0",
+	"homepage": "https://github.com/unscriptable/rave-experiments",
+	"authors": [
+		"unscriptable <john@unscriptable.com>"
+	],
+	"description": "What does a rave-angular integration look like?",
+	"main": "app/app.js",
+	"moduleType": [
+		"node"
+	],
+	"dependencies": {
+		"rave": "~0.1",
+		"rave-angular": "~0.0"
+	},
+	"keywords": [
+		"angular",
+		"rave"
+	],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	]
+}
