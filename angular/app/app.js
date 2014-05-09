@@ -21,7 +21,7 @@ angular
 				'/view2',
 				{ templateUrl: 'app/view2/template.html', controller: 'MyCtrl2' }
 			);
-			$routeProvider.otherwise({redirectTo: '/view1'});
+			$routeProvider.otherwise({ redirectTo: '/view1' });
 		}
 	]);
 
