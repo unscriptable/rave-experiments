@@ -1,15 +1,17 @@
-require('./filters');
-require('./services');
-require('./directives');
-require('./controllers');
+var angular = require('angular');
+
+var filters = require('./filters');
+var services = require('./services');
+var directives = require('./directives');
+var controllers = require('./controllers');
 
 angular
 	.module('myApp', [
-		'ngRoute',
-		'myApp.filters',
-		'myApp.services',
-		'myApp.directives',
-		'myApp.controllers'
+		require('angular-route'), // 'ngRoute',
+		filters, // 'myApp.filters',
+		services, // 'myApp.services',
+		directives, // 'myApp.directives',
+		controllers // 'myApp.controllers',
 	])
 	.config([
 		'$routeProvider', function ($routeProvider) {

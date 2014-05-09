@@ -1,4 +1,6 @@
-angular.module('myApp.controllers', [])
+var angular = require('angular');
+
+module.exports = angular.module('myApp.controllers', [])
 	.controller('MyCtrl1', [
 		'$scope', function ($scope) {
 

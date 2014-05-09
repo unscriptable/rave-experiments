@@ -1,2 +1,4 @@
-angular.module('myApp.services', [])
+var angular = require('angular');
+
+module.exports = angular.module('myApp.services', [])
 	.value('version', '0.1');

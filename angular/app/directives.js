@@ -1,4 +1,6 @@
-angular.module('myApp.directives', [])
+var angular = require('angular');
+
+module.exports = angular.module('myApp.directives', [])
 	.directive('appVersion', [
 		'version', function (version) {
 			return function (scope, elm, attrs) {

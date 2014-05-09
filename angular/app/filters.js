@@ -1,4 +1,6 @@
-angular.module('myApp.filters', [])
+var angular = require('angular');
+
+module.exports = angular.module('myApp.filters', [])
 	.filter('interpolate', [
 		'version', function (version) {
 			return function (text) {
