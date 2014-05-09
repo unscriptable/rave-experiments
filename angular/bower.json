@@ -8,7 +8,7 @@
 	"description": "What does a rave-angular integration look like?",
 	"main": "app/app.js",
 	"moduleType": [
-		"node"
+		"amd"
 	],
 	"dependencies": {
 		"rave": "~0.1",

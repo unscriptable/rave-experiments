@@ -1,13 +1,13 @@
-var angular = require('angular');
+define(['angular'], function (angular) {
+	return angular.module('myApp.controllers', [])
+		.controller('MyCtrl1', [
+			'$scope', function ($scope) {
 
-module.exports = angular.module('myApp.controllers', [])
-	.controller('MyCtrl1', [
-		'$scope', function ($scope) {
+			}
+		])
+		.controller('MyCtrl2', [
+			'$scope', function ($scope) {
 
-		}
-	])
-	.controller('MyCtrl2', [
-		'$scope', function ($scope) {
-
-		}
-	]);
+			}
+		]);
+});
