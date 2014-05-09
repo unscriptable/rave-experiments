@@ -1,5 +1,6 @@
 var angular = require('angular');
 
+var ngRoute = require('angular-route');
 var filters = require('./filters');
 var services = require('./services');
 var directives = require('./directives');
@@ -7,11 +8,11 @@ var controllers = require('./controllers');
 
 angular
 	.module('myApp', [
-		require('angular-route'), // 'ngRoute',
-		filters, // 'myApp.filters',
-		services, // 'myApp.services',
-		directives, // 'myApp.directives',
-		controllers // 'myApp.controllers',
+		ngRoute,
+		filters,
+		services,
+		directives,
+		controllers
 	])
 	.config([
 		'$routeProvider', function ($routeProvider) {
