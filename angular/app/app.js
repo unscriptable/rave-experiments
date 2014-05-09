@@ -6,7 +6,7 @@ var services = require('./services');
 var directives = require('./directives');
 var controllers = require('./controllers');
 
-angular
+module.exports = angular
 	.module('myApp', [
 		ngRoute,
 		filters,
