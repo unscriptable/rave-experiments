@@ -1,3 +1,5 @@
+var angular = require('angular');
+
 angular.module('myApp.filters', [])
 	.filter('interpolate', [
 		'version', function (version) {

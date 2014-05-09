@@ -1,9 +1,11 @@
+var angular = require('angular');
+
 require('./filters');
 require('./services');
 require('./directives');
 require('./controllers');
 
-angular
+module.exports = angular
 	.module('myApp', [
 		'ngRoute',
 		'myApp.filters',
