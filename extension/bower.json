@@ -3,7 +3,7 @@
   "version": "0.1.6",
   "description": "A simple RaveJS experiment.",
   "main": "main",
-  "moduleType": "node",
+  "moduleType": [ "node" ],
   "ignore": [
     "node_modules",
     "bower_components"
