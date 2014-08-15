@@ -25,13 +25,6 @@
     "rave-curl-domReady": "",
     "rave-curl-css": ""
   },
-	"rave": {
-		"overrides": {
-			"curl": {
-				"location": "bower_components/curl/src/curl"
-			}
-		}
-	},
   "maintainers": [
     {
       "name": "John Hann",

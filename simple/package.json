@@ -38,6 +38,6 @@
     }
   ],
   "dependencies": {
-    "rest": "~1.0"
+    "rest": "^1.0.3"
   }
 }

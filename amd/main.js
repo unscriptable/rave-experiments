@@ -1,6 +1,9 @@
 define(
-	['./displayMetadata', './write', 'bootstrap', 'aerogear-pipeline'],
-	function (displayMetadata, write, bootstrap, agPipeline) {
+	[
+		'./displayMetadata', './write', 'bootstrap', 'aerogear-pipeline',
+		'lodash', 'fastclick'
+	],
+	function (displayMetadata, write, bootstrap, agPipeline, _) {
 
 		return function (context) {
 			write('Hello world!', 'h1');
