@@ -29,7 +29,7 @@
   "rave": {
     "overrides": {
       "curl": {
-        "location": "bower_components/curl/src/curl/"
+        "rootUrl": "bower_components/curl/src/curl/"
       }
     }
   },
