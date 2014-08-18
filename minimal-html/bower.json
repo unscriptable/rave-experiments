@@ -4,7 +4,16 @@
   "description": "A simple RaveJS experiment.",
   "main": "main",
   "moduleType": "node",
-  "ignore": [
+	"rave": {
+		"overrides": {
+			"curl": {
+				"directories": {
+					"lib": "bower_components/curl/src/curl/"
+				}
+			}
+		}
+	},
+	"ignore": [
     "node_modules",
     "bower_components"
   ],

@@ -3,7 +3,16 @@
   "version": "0.1.6",
   "description": "A simple RaveJS experiment.",
   "main": "main",
-  "//moduleType": "node",
+	"rave": {
+		"overrides": {
+			"curl": {
+				"directories": {
+					"lib": "bower_components/curl/src/curl/"
+				}
+			}
+		}
+	},
+	"//moduleType": "node",
   "ignore": [
     "node_modules",
     "bower_components"

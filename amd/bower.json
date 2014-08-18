@@ -30,7 +30,7 @@
   "rave": {
     "overrides": {
       "curl": {
-        "rootUrl": "bower_components/curl/src/curl/"
+        "directories": { "lib": "bower_components/curl/src/curl/" }
       }
     }
   },

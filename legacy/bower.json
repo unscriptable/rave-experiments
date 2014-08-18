@@ -24,12 +24,15 @@
     "when": "~2",
     "bootstrap": "~3.1.1",
     "aerogear-pipeline": "~1.3.2",
-    "rave-overrides": "RaveJS/rave-overrides"
+    "rave-overrides": "RaveJS/rave-overrides",
+    "modernizr": "~2.8.3"
   },
   "rave": {
     "overrides": {
       "curl": {
-        "rootUrl": "bower_components/curl/src/curl/"
+        "directories": {
+          "lib": "bower_components/curl/src/curl/"
+        }
       }
     }
   },
