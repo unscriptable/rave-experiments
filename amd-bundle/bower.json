@@ -1,9 +1,9 @@
 {
-  "name": "experiments",
+  "name": "amd-bundle",
   "version": "0.1.6",
   "description": "A simple RaveJS experiment.",
   "main": "main",
-  "//moduleType": [ "node" ],
+  "moduleType": "amd",
   "ignore": [
     "node_modules",
     "bower_components"
@@ -19,14 +19,19 @@
     "url": "https://github.com/unscriptable/scratch"
   },
   "dependencies": {
-	"rave": "",
+    "rave": "",
     "curl": "~0.8",
-    "when": "~2"
+    "when": "~2",
+    "bootstrap": "~3.1.1",
+    "aerogear-pipeline": "~1.3.2",
+    "fastclick": "~1.0.2",
+    "lodash": "~2.4.1"
   },
   "rave": {
     "overrides": {
       "curl": {
-        "directories": { "lib": "bower_components/curl/src/curl/" }
+        "directories": { "lib": "bower_components/curl/src/curl/" },
+        "main": "../curl.js"
       }
     }
   },

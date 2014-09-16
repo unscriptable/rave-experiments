@@ -1,0 +1,54 @@
+{
+	"main": "amd-bundle/main",
+	"paths": {
+		"amd-bundle/main": "amd-bundle/orig-main"
+	},
+	"packages": {
+		"amd-bundle": {
+			"location": ".",
+			"main": "main"
+		},
+		"rave": {
+			"location": "bower_components/rave",
+			"main": "rave"
+		},
+		"curl": {
+			"location": "bower_components/curl/src/curl",
+			"main": "../curl"
+		},
+		"when": {
+			"location": "bower_components/when",
+			"main": "when"
+		},
+		"bootstrap": {
+			"location": "bower_components/bootstrap",
+			"main": "dist/js/bootstrap",
+			"config": {
+				"loader": "curl/loader/legacy",
+				"requires": [ "jquery" ],
+				"exports": "self"
+			}
+		},
+		"aerogear-pipeline": {
+			"location": "bower_components/aerogear-pipeline",
+			"main": "aerogear.pipeline",
+			"config": {
+				"loader": "curl/loader/legacy",
+				"requires": [ "jquery" ],
+				"exports": "self"
+			}
+		},
+		"fastclick": {
+			"location": "bower_components/fastclick",
+			"main": "lib/fastclick"
+		},
+		"lodash": {
+			"location": "bower_components/lodash",
+			"main": "dist/lodash"
+		},
+		"jquery": {
+			"location": "bower_components/jquery",
+			"main": "jquery"
+		}
+	}
+}

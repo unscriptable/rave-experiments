@@ -1,0 +1,16 @@
+{
+  "name": "amd-bundle",
+  "version": "0.1.6",
+  "description": "A simple RaveJS experiment.",
+  "main": "main.js",
+  "author": "John Hann (http://unscriptable.com)",
+  "license": "MIT",
+  "dependencies": {
+    "rave": "^0.3.0",
+    "rave-build": "0.0.1"
+  },
+  "scripts": {
+    "build": "node node_modules/rave-build/build \"{raveMeta:'bower.json,package.json'}\"",
+    "build-old": "cram --config cram-config.json --output main.js"
+  }
+}
