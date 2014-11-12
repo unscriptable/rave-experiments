@@ -1,0 +1,46 @@
+{
+  "name": "legacy-experiments",
+  "version": "0.1.6",
+  "description": "A simple RaveJS experiment.",
+  "main": "main",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unscriptable/scratch"
+  },
+  "dependencies": {
+    "rave": "",
+    "when": "~2",
+    "jquery-ui": "",
+    "jquery": ""
+  },
+  "rave": {
+    "overrides": {
+    }
+  },
+  "maintainers": [
+    {
+      "name": "John Hann",
+      "web": "http://unscriptable.com"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "John Hann",
+      "web": "http://unscriptable.com"
+    },
+    {
+      "name": "Brian Cavalier",
+      "web": "http://hovercraftstudios.com"
+    }
+  ]
+}
