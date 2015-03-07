@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/Users/jhann/.nvm/v0.10.32/bin/npm', 'run', 'build' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info prebuild amd-bundle@0.1.6
+6 info build amd-bundle@0.1.6
+7 verbose unsafe-perm in lifecycle true
+8 info amd-bundle@0.1.6 Failed to exec build script
+9 error amd-bundle@0.1.6 build: `node node_modules/rave-build/build "{raveMeta:'bower.json,package.json'}"`
+9 error Exit status 8
+10 error Failed at the amd-bundle@0.1.6 build script.
+10 error This is most likely a problem with the amd-bundle package,
+10 error not with npm itself.
+10 error Tell the author that this fails on your system:
+10 error     node node_modules/rave-build/build "{raveMeta:'bower.json,package.json'}"
+10 error You can get their info via:
+10 error     npm owner ls amd-bundle
+10 error There is likely additional logging output above.
+11 error System Darwin 13.4.0
+12 error command "node" "/Users/jhann/.nvm/v0.10.32/bin/npm" "run" "build"
+13 error cwd /Users/jhann/Projects/rave-experiments/amd-bundle
+14 error node -v v0.10.32
+15 error npm -v 1.4.28
+16 error code ELIFECYCLE
+17 verbose exit [ 1, true ]
